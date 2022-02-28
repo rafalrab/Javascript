@@ -50,6 +50,12 @@
 // const birthYear = 1991;
 //birthYear = 1990;
 
+//MATH OPERATOR
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2020;
+
+// console.log(now - 1991 > now - 2018);
 //const job;
 
 // var job = 'programmer';
@@ -57,9 +63,7 @@
 
 // lastName = 'Schmedtmann';
 // console.log(lastName);
-// const now = 2037;
-// const ageJonas = now - 1991;
-// const ageSarah = now - 2018;
+
 // console.log(ageJonas, ageSarah);
 
 // console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
@@ -70,6 +74,49 @@
 
 // console.log(firstName + " " + lastName);
 
+// ASSIGNMENT OPERATORS
+
 // let x = 10 + 5; //15
 // x += 10; // x = x + 10
+// x *= 4; // x = x * 4
+// x++; x = x + 1;
+// x--;
+// x--;
 // console.log(x);
+
+//Comparison operators
+// console.log(ageJonas > ageSarah); // >, <, >=, <=
+// console.log(ageSarah >= 18);
+
+// const isFullAage = ageSarah >= 18;
+
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2020;
+
+// console.log(now - 1991 > now - 2018);
+
+// let x, y;
+// x = y = 25 - 10 - 5; // x = y = 10, x = 10
+// console.log(x, y);
+
+// const averageAge = (ageJonas + ageSarah) / 2
+// console.log(ageJonas, ageSarah, averageAge);
+
+// const markHeight = 1.69;
+// const markWeight = 78;
+// const johnHeight = 1.95;
+// const johnWeight = 92;
+
+const markHeight = 1.88;
+const markWeight = 95;
+const johnHeight = 1.76;
+const johnWeight = 85;
+
+const markBMI = markWeight / markHeight ** 2;
+const johnBMI = johnWeight / johnHeight ** 2;
+
+markHigherBMI = (markBMI > johnBMI);
+
+console.log(markBMI, johnBMI, markHigherBMI);
+
