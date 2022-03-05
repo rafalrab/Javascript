@@ -120,3 +120,49 @@ markHigherBMI = (markBMI > johnBMI);
 
 console.log(markBMI, johnBMI, markHigherBMI);
 
+if(markBMI > johnBMI){
+    console.log(`mark's BMI (${markBMI}) is higher than John's (${johnBMI})`)
+} else {
+    console.log(`John's BMI(${johnBMI}) is higher than Mark's (${markBMI})`)
+}
+
+// const firstName = 'Jonas';
+// const job ='teacher';
+// const birthYear = 1991;
+// const year = 2037;
+
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + "!";
+
+// console.log(jonas);
+
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+
+// console.log(jonasNew);
+
+// console.log(`just a regular string..`);
+// console.log('String with \n\
+// multiple \n\
+// lines');
+
+// console.log(`String
+// multiple
+// lines`);
+
+// const age = 15;
+
+// if(age >= 18)
+// {
+//     console.log(`Sara can start driving license 😊`);
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sara is too young. Wait another ${yearsLeft} years :)`);
+// }
+
+// const birthYear = 2012;
+// let century;
+// if(birthYear <= 2000){
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
