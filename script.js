@@ -108,23 +108,23 @@
 // const johnHeight = 1.95;
 // const johnWeight = 92;
 
-const markHeight = 1.88;
-const markWeight = 95;
-const johnHeight = 1.76;
-const johnWeight = 85;
+// const markHeight = 1.88;
+// const markWeight = 95;
+// const johnHeight = 1.76;
+// const johnWeight = 85;
 
-const markBMI = markWeight / markHeight ** 2;
-const johnBMI = johnWeight / johnHeight ** 2;
+// const markBMI = markWeight / markHeight ** 2;
+// const johnBMI = johnWeight / johnHeight ** 2;
 
-markHigherBMI = (markBMI > johnBMI);
+// markHigherBMI = (markBMI > johnBMI);
 
-console.log(markBMI, johnBMI, markHigherBMI);
+// console.log(markBMI, johnBMI, markHigherBMI);
 
-if(markBMI > johnBMI){
-    console.log(`mark's BMI (${markBMI}) is higher than John's (${johnBMI})`)
-} else {
-    console.log(`John's BMI(${johnBMI}) is higher than Mark's (${markBMI})`)
-}
+// if(markBMI > johnBMI){
+//     console.log(`mark's BMI (${markBMI}) is higher than John's (${johnBMI})`)
+// } else {
+//     console.log(`John's BMI(${johnBMI}) is higher than Mark's (${markBMI})`)
+// }
 
 // const firstName = 'Jonas';
 // const job ='teacher';
@@ -166,3 +166,69 @@ if(markBMI > johnBMI){
 //     century = 21;
 // }
 // console.log(century);
+
+//type conversion
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// console.log(Number('Jonas'));
+// console.log(typeof NaN);
+
+// console.log(String(23), 23);
+
+// // type coercion
+
+// console.log('I am ' + 23 + ' years old');
+// console.log('23'- '10' - 3);
+
+// let n = '1' + 1; // this is equal 11 because + triggers coercion
+// n = n - 1;
+// console.log(n);
+
+// let n1 = '1' + 2 + '12';
+// let n2 = '10' - '4' - '3' - 2 + '5';
+// console.log(n1);
+// console.log(n2);
+
+// 5 falsy values : 0, '', undefined, null, NaN
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
+
+// const money = 0;
+// if(money) {
+//     console.log("Don't spend it all ;)");
+// } else {
+//     console.log('You should get a job!');
+// }
+
+// let height = 158;
+
+// if(height) {
+//     console.log('YAY! height is defined');
+// } else {
+//     console.log("height is undefined");
+// }
+
+// const age = 18;
+// if (age === 18) console.log('you just became an adult (strict)');
+
+
+// if (age == 18) console.log('you just became an adult (loose)');
+
+// const favourite = Number(prompt("What's your favorite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if(favourite === 23) { // '23' == 23
+//     console.log(`cool! 23 is an amazing number`);
+// } else {
+
+// }
+
+let n2 = '19' - '13' + '17';
+console.log(n2);
