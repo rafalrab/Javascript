@@ -224,11 +224,14 @@
 // console.log(favourite);
 // console.log(typeof favourite);
 
-// if(favourite === 23) { // '23' == 23
+// if(favourite === 23) { // 23 === 23
 //     console.log(`cool! 23 is an amazing number`);
+// } else if(favourite === 7) {
+//     console.log(`7 is also a cool number`);
+// } else if (favourite === 9) {
+//     console.log('9 is also a cool number');
 // } else {
-
+//     console.log('number is not 23 or 7');
 // }
 
-let n2 = '19' - '13' + '17';
-console.log(n2);
+// if (favourite !== 23) console.log('why not 23?');
