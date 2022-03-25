@@ -235,3 +235,100 @@
 // }
 
 // if (favourite !== 23) console.log('why not 23?');
+
+// const age = 16;
+
+// const hasDriversLicense = true; // A
+// const hasGoodVision = true; // B
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
+
+
+// if (hasDriversLicense && hasGoodVision) {
+//     console.log('Sarah is able to drive')
+// } else {
+//     console.log('someone else should drive..')
+// }
+
+// const isTired = false; // C
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log('Sarah is able to drive')
+// } else {
+//     console.log('someone else should drive..')
+// }
+// BONUS 0
+// const avgDolphins = (96 + 108 + 98) / 3;
+// const avgKoalas = (88 + 91 + 110) / 3;
+
+// if (avgDolphins > avgKoalas) {
+//     console.log(`Dolphins won`);
+// } else if (avgKoalas > avgDolphins){
+//     console.log(`Koalas won`);
+// } else if (avgDolphins === avgKoalas) {
+//     console.log(`there is a draw`);
+// }
+
+//BONUS 1/2
+
+// const avgDolphins = (97 + 112 + 80) / 3;
+// const avgKoalas = (109 + 95 + 50) / 3;
+
+// if (avgDolphins > avgKoalas && avgDolphins >= 100) {
+//     console.log(`Dolphins won`);
+// } else if (avgKoalas > avgDolphins && avgKoalas >= 100){
+//     console.log(`Koalas won`);
+// } else if (avgDolphins === avgKoalas && avgDolphins >=100 && avgKoalas >=100) {
+//     console.log(`Both win trophy!`);
+// } else {
+//     console.log('no one wins the tropy :(')
+// }
+
+
+// const day = 'thursday';
+
+// switch(day) {
+//     case 'monday': // day === 'monday'
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('prepare theory videos');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'friday':
+//         console.log('record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('enjoy weekend');
+//         break;
+//     default:
+//         console.log('Not a valid day');
+// }
+
+// if(day === 'monday'){
+//     console.log('plan course structure')
+// } else if(day === 'tuesday'){
+//     console.log('prepare theory videos');
+// } else if(day === 'wednesday' || day === 'thursday'){
+//     console.log('write code example');
+// } else if (day === 'friday') {
+//     console.log("record videos");
+// } else if (day === 'saturday' || day === 'sunday') {
+//     console.log('enjoy weekend');
+// } else {
+//     console.log('Not a valid day');
+// }
+
+// if (23 > 10) {
+//     const str = '23 is bigger';
+// }
+
+// console.log(`I'm ${2037 - 1991} years old`);
