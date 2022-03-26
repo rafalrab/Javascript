@@ -332,3 +332,34 @@
 // }
 
 // console.log(`I'm ${2037 - 1991} years old`);
+
+//conditional operator
+
+//  const age = 23;
+// age >= 18 ? console.log('I like to drink vine') : console.log('I like to drink water');
+
+// const drink = age >= 18 ? 'wine' : 'water';
+// console.log(drink);
+
+// let drink2;
+// if (age>= 18) {
+//     drink2 = 'wine';
+// } else {
+//     drink2 = 'water';
+// }
+// console.log(drink2);
+
+// console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
+let tip;
+let bill = 275;
+
+console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
+
+bill = 40;
+
+console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
+
+bill = 430;
+
+console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
