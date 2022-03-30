@@ -30,3 +30,28 @@ console.log(fruitProcessor(5, 0));
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+
+function addNumber(a, b) {
+    const c = a + b;
+    return c;
+}
+
+console.log(addNumber(2, 4));
+let sumNumber = (addNumber(2,8));
+console.log(sumNumber);
+
+// that was function declaration
+
+function calcAge1(birthYear) {
+    return 2037 - birthYear;
+}
+
+const age1 = calcAge1(1991);
+console.log(age1);
+// function expression
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+
+const age2 = calcAge2(1991);
+console.log(age1, age2);
