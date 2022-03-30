@@ -108,23 +108,23 @@
 // const johnHeight = 1.95;
 // const johnWeight = 92;
 
-// const markHeight = 1.88;
-// const markWeight = 95;
-// const johnHeight = 1.76;
-// const johnWeight = 85;
+const markHeight = 1.88;
+const markWeight = 95;
+const johnHeight = 1.76;
+const johnWeight = 85;
 
-// const markBMI = markWeight / markHeight ** 2;
-// const johnBMI = johnWeight / johnHeight ** 2;
+const markBMI = markWeight / markHeight ** 2;
+const johnBMI = johnWeight / johnHeight ** 2;
 
-// markHigherBMI = (markBMI > johnBMI);
+markHigherBMI = (markBMI > johnBMI);
 
-// console.log(markBMI, johnBMI, markHigherBMI);
+console.log(markBMI, johnBMI, markHigherBMI);
 
-// if(markBMI > johnBMI){
-//     console.log(`mark's BMI (${markBMI}) is higher than John's (${johnBMI})`)
-// } else {
-//     console.log(`John's BMI(${johnBMI}) is higher than Mark's (${markBMI})`)
-// }
+if(markBMI > johnBMI){
+    console.log(`mark's BMI (${markBMI}) is higher than John's (${johnBMI})`)
+} else {
+    console.log(`John's BMI(${johnBMI}) is higher than Mark's (${markBMI})`)
+}
 
 // const firstName = 'Jonas';
 // const job ='teacher';
@@ -224,142 +224,11 @@
 // console.log(favourite);
 // console.log(typeof favourite);
 
-// if(favourite === 23) { // 23 === 23
+// if(favourite === 23) { // '23' == 23
 //     console.log(`cool! 23 is an amazing number`);
-// } else if(favourite === 7) {
-//     console.log(`7 is also a cool number`);
-// } else if (favourite === 9) {
-//     console.log('9 is also a cool number');
 // } else {
-//     console.log('number is not 23 or 7');
+
 // }
 
-// if (favourite !== 23) console.log('why not 23?');
-
-// const age = 16;
-
-// const hasDriversLicense = true; // A
-// const hasGoodVision = true; // B
-
-// console.log(hasDriversLicense && hasGoodVision);
-// console.log(hasDriversLicense || hasGoodVision);
-// console.log(!hasDriversLicense);
-
-
-// if (hasDriversLicense && hasGoodVision) {
-//     console.log('Sarah is able to drive')
-// } else {
-//     console.log('someone else should drive..')
-// }
-
-// const isTired = false; // C
-// console.log(hasDriversLicense && hasGoodVision && isTired);
-
-// if (hasDriversLicense && hasGoodVision && !isTired) {
-//     console.log('Sarah is able to drive')
-// } else {
-//     console.log('someone else should drive..')
-// }
-// BONUS 0
-// const avgDolphins = (96 + 108 + 98) / 3;
-// const avgKoalas = (88 + 91 + 110) / 3;
-
-// if (avgDolphins > avgKoalas) {
-//     console.log(`Dolphins won`);
-// } else if (avgKoalas > avgDolphins){
-//     console.log(`Koalas won`);
-// } else if (avgDolphins === avgKoalas) {
-//     console.log(`there is a draw`);
-// }
-
-//BONUS 1/2
-
-// const avgDolphins = (97 + 112 + 80) / 3;
-// const avgKoalas = (109 + 95 + 50) / 3;
-
-// if (avgDolphins > avgKoalas && avgDolphins >= 100) {
-//     console.log(`Dolphins won`);
-// } else if (avgKoalas > avgDolphins && avgKoalas >= 100){
-//     console.log(`Koalas won`);
-// } else if (avgDolphins === avgKoalas && avgDolphins >=100 && avgKoalas >=100) {
-//     console.log(`Both win trophy!`);
-// } else {
-//     console.log('no one wins the tropy :(')
-// }
-
-
-// const day = 'thursday';
-
-// switch(day) {
-//     case 'monday': // day === 'monday'
-//         console.log('Plan course structure');
-//         console.log('Go to coding meetup');
-//         break;
-//     case 'tuesday':
-//         console.log('prepare theory videos');
-//         break;
-//     case 'wednesday':
-//     case 'thursday':
-//         console.log('Write code examples');
-//         break;
-//     case 'friday':
-//         console.log('record videos');
-//         break;
-//     case 'saturday':
-//     case 'sunday':
-//         console.log('enjoy weekend');
-//         break;
-//     default:
-//         console.log('Not a valid day');
-// }
-
-// if(day === 'monday'){
-//     console.log('plan course structure')
-// } else if(day === 'tuesday'){
-//     console.log('prepare theory videos');
-// } else if(day === 'wednesday' || day === 'thursday'){
-//     console.log('write code example');
-// } else if (day === 'friday') {
-//     console.log("record videos");
-// } else if (day === 'saturday' || day === 'sunday') {
-//     console.log('enjoy weekend');
-// } else {
-//     console.log('Not a valid day');
-// }
-
-// if (23 > 10) {
-//     const str = '23 is bigger';
-// }
-
-// console.log(`I'm ${2037 - 1991} years old`);
-
-//conditional operator
-
-//  const age = 23;
-// age >= 18 ? console.log('I like to drink vine') : console.log('I like to drink water');
-
-// const drink = age >= 18 ? 'wine' : 'water';
-// console.log(drink);
-
-// let drink2;
-// if (age>= 18) {
-//     drink2 = 'wine';
-// } else {
-//     drink2 = 'water';
-// }
-// console.log(drink2);
-
-// console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
-
-let tip;
-let bill = 275;
-
-console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
-
-bill = 40;
-
-console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
-
-bill = 430;
-
-console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
+let n2 = '19' - '137' + '17';
+console.log(n2);
