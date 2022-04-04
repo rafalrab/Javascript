@@ -1,47 +1,56 @@
-
-// const country = 'Poland';
-// const continent = 'Europe';
-// let population = 39;
-// let language;
-
-// console.log(country);
-// console.log(continent);
-// console.log(population);
-
-// let isIsland = false;
-// language = 'Polish';
-
-// console.log(isIsland);
-// console.log(language);
-
-// let halfPopulation = population / 2;
-
-// population += 1;
-// console.log(halfPopulation);
-// console.log(population);
-// console.log(population > 6);
-// console.log(population < 33);
-
-// let description = country + ' ' + "is in " + continent + " and its " + population + " milion people speak " + language;
-
-// console.log(description);
-
-// description = `${country} is in ${continent} and its ${population} milion people speak ${language}`;
-
-// console.log(description);
-
-// if(population > 33){
-//    console.log("Poland's population is above average"); 
-// } else {
-//     console.log(`Poland's population is ${33 - population} milion below average`);
+// function describeCountry(country,population,capitalCity){
+//     console.log(`${country} has ${population} million people and its capital city is ${capitalCity}`);
 // }
 
-// const numNeighbours = Number(prompt("How many neighbour contries does your country have?"));
+// const country1 = describeCountry('Poland',39,'Warszawa');
+// const country2 = describeCountry('Germany',50,'Berlin');
+// const country3 = describeCountry('France',60,'Paris');
 
-// if (numNeighbours === 1) {
-//     console.log(`Only 1 border!`)
-// } else if (numNeighbours > 1) {
-//     console.log(`More than 1 border!`);
-// } else {
-//     console.log(`no borders!`);
+// function percentageOfWorld1(population) {
+//     const prcOfWorld = (population/7900) * 100;
+//     console.log(prcOfWorld);
+//     return prcOfWorld;
 // }
+// percentageOfWorld1(39);
+// percentageOfWorld1(50);
+// percentageOfWorld1(60);
+
+// const percentageOfWorld2 = function (population) {
+//     const prcOfWorld2 = (population/7900) * 100;
+//     console.log(prcOfWorld2);
+//     return prcOfWorld2;
+// }
+// const percPoland1 = percentageOfWorld2(39);
+// const percGermany1 = percentageOfWorld2(50);
+// const percFrance1 = percentageOfWorld2(60);
+
+// const percentageOfWorld3 = population => {
+//     return (population/7900) * 100;
+// }
+
+// const percPoland3 = percentageOfWorld3(39);
+// const percGermany3 = percentageOfWorld3(50);
+// const percFrance3 = percentageOfWorld3(60);
+// console.log(percPoland3,percGermany3,percFrance3);
+
+// function describePopulation(country,population) {
+//     const percentage = percentageOfWorld3(population);
+//     const description = `${country} has ${population} million people, which is about ${percentage} of the world`;
+//     console.log(description);
+// }
+
+// describePopulation('Poland', 39);
+// describePopulation('Germany', 50);
+// describePopulation('France', 60);
+
+// const populations = [39,50,60,70,'Poland','Germany','France','Spain'];
+
+// console.log(populations.length === 4 ? 'true' : 'false');
+
+// const percentages = [
+//     percentageOfWorld3(39),
+//     percentageOfWorld3(50),
+//     percentageOfWorld3(60),
+//     percentageOfWorld3(70)
+// ];
+// console.log(percentages);
