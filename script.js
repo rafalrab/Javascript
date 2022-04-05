@@ -81,7 +81,7 @@
 
 // function fruitProcessor(apples, oranges) {
 //     const applePieces = cutFruitPieces(apples);
-//     const orangePieces = cutFruitPieces(oranges);
+//     const orangePieck,mmes = cutFruitPieces(oranges);
 //     const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges`;
 //     return juice;
 // }
@@ -181,35 +181,114 @@
 // const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
 // console.log(ages);
 
-const friends = ['Michael','Steven','Peter'];
+// const friends = ['Michael','Steven','Peter'];
 
 // ADD ELEMENTS
-const newLength = friends.push('Jay');
+// const newLength = friends.push('Jay');
 
-console.log(friends);
-console.log(newLength);
+// console.log(friends);
+// console.log(newLength);
 
-friends.unshift('John');
-console.log(friends);
+// friends.unshift('John');
+// console.log(friends);
 
 // REMOVE ELEMENTS
 
-friends.pop(); // remove last element
-const popped = friends.pop();
-console.log(popped);
-console.log(friends);
+// friends.pop(); // remove last element
+// const popped = friends.pop();
+// console.log(popped);
+// console.log(friends);
 
-friends.shift();
+// friends.shift();
 
-console.log(friends);
-console.log(friends.indexOf('Steven'));
-console.log(friends.indexOf('Bob'));
+// console.log(friends);
+// console.log(friends.indexOf('Steven'));
+// console.log(friends.indexOf('Bob'));
 
-friends.push(23);
-console.log(friends.includes('Steven'));
-console.log(friends.includes('Bob'));
-console.log(friends.includes(23));
+// friends.push(23);
+// console.log(friends.includes('Steven'));
+// console.log(friends.includes('Bob'));
+// console.log(friends.includes(23));
 
-if(friends.includes('Steven')) {
-    console.log(`you have a friend called Steven`);
-} 
+// if(friends.includes('Steven')) {
+//     console.log(`you have a friend called Steven`);
+// } 
+
+// let tip;
+// let bill = 275;
+
+// console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
+
+// bill = 40;
+
+// console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
+
+// bill = 430;
+
+// console.log(`bill is equal ${bill} $ so the tip is going to be ${bill >= 50 && bill <= 300 ? tip = bill * 0.15 : tip = bill * 0.20} $ so final price is equal ${tip + bill}`);
+
+// function calcTip(billValue) {
+//   let tip;
+//   if (billValue >=50 && billValue <= 300) {
+//     tip = billValue * 0.15;
+//   } else {
+//     tip = billValue * 0.20;
+//   }
+//   return tip;
+// }
+
+// console.log(calcTip(100));
+
+// const bills = [125,555,4];
+
+// const tips = [
+//   calcTip(bills[0]),
+//   calcTip(bills[1]),
+//   calcTip(bills[2])
+// ];
+
+//   const total = [
+  //     tips[0] + bills[0],
+  //     tips[1] + bills[1],
+  //     tips[2] + bills[2]
+  //   ];
+  
+  //   console.log(total);
+  
+
+  const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtmann',
+    age: 2037 - 1991,
+    job:'teacher',
+    friends:['Michael','Peter','Steven']
+  }
+  
+console.log(jonas);
+
+console.log(jonas.lastName);
+console.log(jonas['lastName']);
+
+const nameKey = 'Name';
+console.log(jonas['first' + nameKey]);
+console.log(jonas['last' + nameKey]);
+
+//console.log(jonas['last' + nameKey]);  BAD
+
+const interestedIn = prompt(`what do you want to know about Jonas? Choose between firstName, lastName, age, job and friends`);
+
+
+if(jonas[interestedIn]) {
+  console.log(jonas[interestedIn]);
+  } else {
+    console.log(`Wrong request!  Choose between firstName, lastName, age, job and friends`)
+  }
+
+  jonas.location = 'Portugal';
+  jonas['twitter'] = '@jonasschmedtman';
+  console.log(jonas);
+
+  //CHALLENGE
+  // "Jonas has 3 friends, and his best friend is called Michael"
+
+ console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}!`);
