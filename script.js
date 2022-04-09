@@ -256,39 +256,240 @@
   //   console.log(total);
   
 
-  const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    age: 2037 - 1991,
-    job:'teacher',
-    friends:['Michael','Peter','Steven']
-  }
+//   const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job:'teacher',
+//     friends:['Michael','Peter','Steven']
+//   }
   
-console.log(jonas);
+// console.log(jonas);
 
-console.log(jonas.lastName);
-console.log(jonas['lastName']);
+// console.log(jonas.lastName);
+// console.log(jonas['lastName']);
 
-const nameKey = 'Name';
-console.log(jonas['first' + nameKey]);
-console.log(jonas['last' + nameKey]);
+// const nameKey = 'Name';
+// console.log(jonas['first' + nameKey]);
+// console.log(jonas['last' + nameKey]);
 
-//console.log(jonas['last' + nameKey]);  BAD
+// //console.log(jonas['last' + nameKey]);  BAD
 
-const interestedIn = prompt(`what do you want to know about Jonas? Choose between firstName, lastName, age, job and friends`);
+// const interestedIn = prompt(`what do you want to know about Jonas? Choose between firstName, lastName, age, job and friends`);
 
 
-if(jonas[interestedIn]) {
-  console.log(jonas[interestedIn]);
-  } else {
-    console.log(`Wrong request!  Choose between firstName, lastName, age, job and friends`)
-  }
+// if(jonas[interestedIn]) {
+//   console.log(jonas[interestedIn]);
+//   } else {
+//     console.log(`Wrong request!  Choose between firstName, lastName, age, job and friends`)
+//   }
 
-  jonas.location = 'Portugal';
-  jonas['twitter'] = '@jonasschmedtman';
-  console.log(jonas);
+//   jonas.location = 'Portugal';
+//   jonas['twitter'] = '@jonasschmedtman';
+//   console.log(jonas);
 
+//   //CHALLENGE
+//   // "Jonas has 3 friends, and his best friend is called Michael"
+
+//  console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}!`);
+
+
+//   const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job:'teacher',
+//     friends:['Michael','Peter','Steven'],
+//     hasDriversLicense: true,
+    
+//     // calcAge: function(birthYear) {
+//     //   return 2037 - birthYear;
+//     // }
+
+//     // calcAge: function() {
+//     //   return 2037 - this.birthYear;
+//     // }
+
+//     calcAge: function() {
+//       this.age = 2037 - this.birthYear;
+//       return this.age;
+//     },
+    
+//     getSummary: function() {
+//       return `${this.firstName} is a ${this.calcAge()} ${this.job}, and he ${this.hasDriversLicense ? "has": "hasn't"} a driver's licence!`;
+//     }
+//   };
+
+//   console.log(jonas.calcAge());
+  
+//   console.log(jonas.age);
+//   console.log(jonas.age);
+//   console.log(jonas.age);
+
+// console.log(jonas.getSummary());
   //CHALLENGE
-  // "Jonas has 3 friends, and his best friend is called Michael"
 
- console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}!`);
+ // "Jonas is a 46- year old teacher, and he has a driver's license";
+
+//  const markTest = {
+//    firstName: 'Mark',
+//    lastName: 'Miller',
+//    mass: 78,
+//    height:1.69,
+
+//    calcBMI: function () {
+//       this.bmi = this.mass / this.height ** 2;
+//       return this.bmi;
+//    },
+//  };
+
+//  const johnTest = {
+//    firstName: 'John',
+//    lastName: 'Smith',
+//    mass: 92,
+//    height:1.95,
+
+//    calcBMI: function (mass,height) {
+//     this.bmi = this.mass/this.height ** 2;
+//     return this.bmi;
+//  },
+
+//  };
+// console.log(markTest.calcBMI());
+// console.log(johnTest.calcBMI());
+//  console.log(johnTest.calcBMI() > markTest.bmi ? `John's BMI (${johnTest.bmi}) is higher than Mark's (${markTest.bmi})`: `Mark has higher BMI ${markTest.bmi} than John's BMI ${johnTest.bmi}`);
+
+// console.log('Lifting weights repetition 1');
+
+
+// for(let rep = 1; rep <= 10; rep++) {
+//   console.log(`Lifting weights repetition ${rep}`);
+// }
+
+// const jonas = [
+//   'Jonas',
+//   'Schmedtmann', 
+//   2037 - 1991,
+//   'teacher', 
+//   ['Michael','Peter','Steven'],
+//   true
+// ];
+
+// const types = [];
+
+//   for (let i = 0;i < jonas.length; i++) {
+//     // READING FROM JONAS ARRAY
+//     console.log(jonas[i], typeof (jonas[i]));
+//     //FILLING TYPES ARRAY
+//     //types[i] = typeof jonas[i];
+//     types.push(typeof jonas[i]);
+//   };
+
+//   console.log(types);
+
+//   const years = [1991,2007,1969,2020];
+//   const ages = [];
+
+//   for(let i = 0; i< years.length; i++) {
+//     ages.push(2037 - years[i]);
+//   }
+
+//   console.log(ages);
+
+//   //continue and break
+
+//   console.log('--- ONLY STRINGS ---')
+//   for (let i = 0;i < jonas.length; i++) {
+//     // READING FROM JONAS ARRAY
+
+//     if(typeof jonas[i] !== 'string') continue;
+
+//     console.log(jonas[i], typeof (jonas[i]));
+
+//   };
+// console.log('---BREAK WITH NUMBER---')
+//   for (let i = 0;i < jonas.length; i++) {
+//     // READING FROM JONAS ARRAY
+
+//     if(typeof jonas[i] === 'number') break;
+
+//     console.log(jonas[i], typeof (jonas[i]));
+
+//   };
+
+//   const jonas = [
+//   'Jonas',
+//   'Schmedtmann', 
+//   2037 - 1991,
+//   'teacher', 
+//   ['Michael','Peter','Steven'],
+// ];
+
+// for(let i = jonas.length - 1; i >=0;i--) {
+//   console.log(i,jonas[i]);
+// }
+
+// for(let exercise = 1; exercise <= 3; exercise++) {
+//   console.log(`---- Starting exercise ${exercise}`)
+//   for(let rep = 1; rep < 6; rep++) {
+//     console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}`);
+//   }
+// }
+
+  // for(let rep = 1; rep <=10; rep++) {
+  //   console.log(`Lifting weight repetition ${rep}`);
+  // }
+
+//   let rep = 1;
+//   while(rep<=10) {
+// //console.log(`lifting weights repetition ${rep}`);
+// rep++;
+//   }
+
+//  let dice = Math.trunc(Math.random() * 6) + 1;
+
+//   while(dice !== 6) {
+//     console.log(`You rolled a ${dice}`);
+//     dice = Math.trunc(Math.random() * 6) + 1;
+//     if (dice === 6) 
+//     console.log('Loop is about to end...');
+
+//  }
+
+//FINAL CHALLENGE
+
+
+
+const bills = [22,295,176,440,37,105,10,1100,86,52];
+const tips = [];
+const totals = [];
+
+function calcTip(billValue) {
+  let tip;
+  if (billValue >=50 && billValue <= 300) {
+    tip = billValue * 0.15;
+  } else {
+    tip = billValue * 0.20;
+  }
+  return tip;
+}
+
+for(let i = 0; i <= bills.length - 1; i++) {
+  tips[i] = calcTip(bills[i]);
+  totals[i] = bills[i] + tips[i];
+}
+
+console.log(totals);
+
+
+// BONUS
+let sum = 0;
+
+function calcAverage(arr) {
+  for (let i = 0; i <= arr.length - 1; i++) {
+    sum += arr[i];   
+  }
+  return sum / arr.length;
+}
+
+console.log(calcAverage(totals));
